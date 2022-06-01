@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "kongtext";
+    src: url("/assets/font/kongtext.ttf") format("truetype");
+}
+:root{
+    font-family: "kongtext";
+    
+}
+body{
+    background-image: url(/assets/img/background_plaine.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-x; 
+}
+.disable{
+    display: none;
+}
+header{
+    height: 15vh;
+    text-align: end;
+}
+.mort{
+    width: 3rem;
+    height: 3rem;
+    filter: sepia(1);
+}
+p{
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: "kongtext";
+}
+button{
+    font-family: "kongtext";
+}
+main{
+    text-align: center;
+}
+#panneauDebut{
+    width: 30vw;
+    margin: auto;
+}
+#combat{
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    align-items: center;
+}
+#combat > article{
+    width: 20vw;
+}
+#fleche{
+    width: 10rem;
+    height: 10rem;
+}
+#bad{
+    margin-top: 3rem;
+}
+
+h3{
+    font-family: "kongtext";
+    color: white;
+}
+.combattant{
+    width: 20rem;
+    height: 20rem;
+}
+.rotate{
+    transform: rotate(5170deg);
+    transition: all ease 2s;
+}
+.rotate2{
+    transform: rotate(4890deg);
+    transition: all ease 2s;
+}
+
+.nes-progress{
+
+    width: 48%;
+    height: 20px;
+
+}

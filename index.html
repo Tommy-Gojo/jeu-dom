@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="nes-container is-dark with-title is-centered" id="panneauDebut">
+            <p class="title">Mode Combat</p>
+            <p id="panneau">Bienvenue! Clique sur le bouton pour lancer le combat</p>
+            <button class="disable" id="again">Recommencer?</button>
+        </section>
+        <section id="combat">
+            <article >
+                <button type="button" class="nes-btn is-disabled" id="attack">Attack</button>
+                <button type="button" class="nes-btn is-disabled" id="special">Special</button>
+                <h3>JeanJean</h3>
+                <img src="/assets/img/fighter.png" alt="" class="combattant">
+                <p>Points de vie</p>
+                <progress class="nes-progress is-success" value="100" max="100"></progress>
+                    
+            </article>
+            <article  id="artArrow">
+                <img src="/assets/img/arrow.png" alt="" id="fleche">
+            </article>
+            <article id="monster">
+                <button type="button" class="nes-btn is-warning btn-start" id="commencer">Générer un adversaire</button>
+                <div class="disable enemy-visual">
+                    <h3></h3>
+                    <img src="" alt="" >
+                    <p></p>
+                    <progress  value="100" max="100"></progress>
+                </div>
+
+
+            </article>
+        </section>
+    </main>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
